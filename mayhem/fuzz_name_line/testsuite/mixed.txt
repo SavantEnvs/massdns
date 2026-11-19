@@ -1,0 +1,4 @@
+a.b\.c.example.
+TYPE65 example.com
+PTR 2001:db8::1
+ANY .

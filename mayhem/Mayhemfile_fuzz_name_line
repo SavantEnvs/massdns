@@ -1,0 +1,9 @@
+project: savantenvs/massdns
+target: fuzz_name_line
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_name_line/testsuite
+cmds:
+  - cmd: /mayhem/bin/fuzz_name_line
+    libfuzzer: true
+    timeout: 10

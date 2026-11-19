@@ -1,0 +1,9 @@
+example.com
+www.example.com
+nx.example.com
+MX example.com
+TXT example.com
+SOA example.com
+SRV _sip._tcp.example.com
+AAAA example.com
+PTR 1.2.3.4
